@@ -6,5 +6,4 @@ module.exports = {
     'models-path': resolve(__dirname, 'src', 'models'),
     'migrations-path': resolve(__dirname, 'src', 'database', 'migrations'),
     'seeders-path': resolve(__dirname, 'src', 'database', 'seeds'),
-
 };
