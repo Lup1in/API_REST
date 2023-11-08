@@ -27,6 +27,7 @@ export default async (req, res, next) => {
         errors: ['Invalid user. (usuário inválido)'],
       });
     }
+
     req.userId = id;
     req.userEmail = email;
     return next();
